@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: c5e29050674c01c47b229928a477822e
+timeCreated: 1486159473
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: NDS12
+  fontNames:
+  - NDS12
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
