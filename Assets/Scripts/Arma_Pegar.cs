@@ -30,9 +30,9 @@ public class Arma_Pegar : MonoBehaviour {
 	private void OnTriggerEnter (Collider obj){
 	   	if(obj.gameObject.tag == "Player") {
 			if (Player_Armas.emUso [0].id == id || Player_Armas.emUso [1].id == id) {
-				Player_Canvas.MostraEstatico ("Recarregar", new Sprite());
+				Player_Canvas.MostraEstatico ("Recarregar", null); // new Sprite()
 			} else {
-				Player_Canvas.MostraEstatico ("Pegar", new Sprite());
+				Player_Canvas.MostraEstatico ("Pegar", null); // new Sprite()
 			}
 			perto = true;
 	   	}

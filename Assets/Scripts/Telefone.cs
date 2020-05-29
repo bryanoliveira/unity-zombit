@@ -29,7 +29,7 @@ public class Telefone : MonoBehaviour {
 					Player_Canvas.MostraEstatico("Esfriando...");
             }
             else {
-				Player_Canvas.MostraEstatico("Pedir suporte (-500)", new Sprite());
+				Player_Canvas.MostraEstatico("Pedir suporte (-500)", null);
                 disponivel = true;
             }
 		}

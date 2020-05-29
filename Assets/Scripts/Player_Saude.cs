@@ -32,7 +32,7 @@ public class Player_Saude : MonoBehaviour {
 	[SerializeField] private Camera cam;
 	[SerializeField] private SpriteRenderer sprite;
 	// efeitos
-	[SerializeField] private Vignetting vig;
+	// [SerializeField] private Vignetting vig;
 	[SerializeField] private UnityStandardAssets.ImageEffects.BlurOptimized blur;
 	private Sprite dead;
 	// Efeitos sonoros
@@ -257,7 +257,7 @@ public class Player_Saude : MonoBehaviour {
 	}
 	private IEnumerator InvencibilidadeMethod (int tempo){
 		invencivel = true;
-		vig.blur = 1.5f;
+		//Camera.main.GetComponent<Vignetting>().blur = 1.5f;
 		Player_Canvas.MostraPowerup((int)TipoDoPowerup.invenc, tempo);
 		Player_Canvas.AtualizaVida (-1, false); // mostra o infinito na vida
 		Camera_Flasher.eu.Flash("branco", 0.3f, 0.4f);
@@ -266,7 +266,7 @@ public class Player_Saude : MonoBehaviour {
 
 		yield return new WaitForSeconds (tempo);
 		invencivel = false;
-		vig.blur = 0;
+		// Camera.main.GetComponent<Vignetting>().blur = 0;
 		Player_Canvas.AtualizaVida (vida, false);
 	}
 
@@ -285,16 +285,16 @@ public class Player_Saude : MonoBehaviour {
 		Camera_Flasher.eu.Flash("azul", 0.3f, 0.8f);
 		Camera_Flasher.eu.Zoom(0.4f, 2f);
 		Camera_Flasher.eu.Overlay("azul", tempo, 1);
-		vig.blur = 1.5f;
-		vig.blurSpread = 3;
+		// Camera.main.GetComponent<Vignetting>().blur = 1.5f;
+		// Camera.main.GetComponent<Vignetting>().blurSpread = 3;
 
 		yield return new WaitForSeconds (tempo);
 
 		slowMotion = false;
 		Soundtrack.eu.SetPitch(1);
 		Player.timeScale = 1;
-		vig.blur = 0;
-		vig.blurSpread = 1.5f;
+		//Camera.main.GetComponent<Vignetting>().blur = 0;
+		//Camera.main.GetComponent<Vignetting>().blurSpread = 1.5f;
 	}
 
 

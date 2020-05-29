@@ -26,7 +26,7 @@ public class Camera_Flasher : MonoBehaviour {
 	[SerializeField] private Texture2D overlayTex;
 	[SerializeField] private Camera cam;
 	// Musica
-	[SerializeField] private Vignetting vig; // só pro chromatic
+	// [SerializeField] private Vignetting vig; // só pro chromatic
 	private AudioSource music;
 	//
 	private float rmsValue;   // nivel dos sons
@@ -189,7 +189,7 @@ public class Camera_Flasher : MonoBehaviour {
 		}
 		rmsValue = Mathf.Sqrt(soma/1024) + fator; // faz a media
 
-		vig.chromaticAberration = rmsValue*50;
+		// Camera.main.GetComponent<Vignetting>().chromaticAberration = rmsValue*50;
 	}
 
 	public void SetVisao(float quanto) {
