@@ -169,7 +169,7 @@ public static class Game_Controles {
 		}
 
         // verifica os joysticks
-
+        /*
         for (int i = 0; GamePad.GetState((XInputDotNetPure.PlayerIndex)i).IsConnected; i++) {
             // se minha contagem real de estados for menor que o indice do controle atual
             if (state.Count - 1 < i) {
@@ -261,7 +261,8 @@ public static class Game_Controles {
             if (Input.GetButton("Pausar")) {
                 startC = true;
                 indiceControle = 1 + i;
-            }*/
+            }*/ 
+            /*
             // nuke
 			if (prevState[i].Buttons.Y == ButtonState.Released && state[i].Buttons.Y == ButtonState.Pressed) {
 				armaSwitch = true;
@@ -297,7 +298,7 @@ public static class Game_Controles {
 				inserir = true;
 				indiceControle = 1 + i;
 			}
-        }
+        }*/
 
         if(indiceControle != indiceControleAnterior) {
 			if(ControleMudou != null)

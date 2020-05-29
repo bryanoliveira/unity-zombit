@@ -40,10 +40,15 @@ public class Player_Movimento : MonoBehaviour {
 	}
 
 	private void Update (){
+		Debug.Log("ddddd");
+		Game_Controles.GetEntrada();
+
+		Debug.Log("aaaaaa");
         // Setas ou WASD
         x = Game_Controles.movimento_x * Player.time * speed;
         z = Game_Controles.movimento_y * Player.time * speed;
 
+		Debug.Log("bbbbbb");
         // Animaçoes
         if (x > 0.1f || z > 0.1f)
             pernasAnim.anda();
@@ -51,6 +56,8 @@ public class Player_Movimento : MonoBehaviour {
             pernasAnim.para();
 
         // Atualiza a posiçao
+		Debug.Log("ccccc");
+		Debug.Log("hi " + x + " " + z);
         transform.Translate(x, 0, z);
 
 #if UNITY_ANDROID        
