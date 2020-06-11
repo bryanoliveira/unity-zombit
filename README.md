@@ -4,9 +4,9 @@ In a world overrun by zombies you must survive as long as possible and defeat di
 
 I made this game during my first year of Computer Science graduation - I had a lot of free time back then. I believe it could be much improved with newer versions of Unity3D, better design patterns and algorithmic complexity in mind. Yet, it is a fun game that you can [download](https://play.google.com/store/apps/details?id=com.elitgames.zombit) (an older version) in Play Store.
 
-## Requirements and How to Use
+## Requirements and Instructions
 
-- Unity3D 2019.3
+- Install Unity3D 2019.3
 - Have fun!
 
 ## TO-DOs and Known Bugs
