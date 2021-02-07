@@ -8,8 +8,9 @@ I made this game during my first year of Computer Science course (I had a lot of
 
 ## Requirements and Instructions
 
--   Install Unity3D 2019.3
--   Have fun!
+-   Install Unity3D (tested for v2019.3)
+-   Open the project folder
+-   Hit Play and have fun!
 
 ## TO-DOs and Known Bugs
 
