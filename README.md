@@ -4,7 +4,7 @@ In a world overrun by zombies you must survive as long as possible and defeat di
 
 <img src="Images/3.png" width="260" height="190"> <img src="Images/2.png" width="260" height="190"> <img src="Images/1.png" width="260" height="190">
 
-I made this game during my first year of Computer Science course (I had a lot of free time back then). I believe it could be much improved with newer versions of Unity3D, better design patterns and algorithmic complexity in mind. Yet, it is a fun game that you can [download](https://play.google.com/store/apps/details?id=com.elitgames.zombit) (an older version) in Play Store.
+I made this game during my first year in Computer Science course. I believe the project could be significantly improved with the use of design patterns, clearer abstractions and algorithmic complexity in mind. Yet, it is a fun game that you can [download](https://play.google.com/store/apps/details?id=com.elitgames.zombit) (an older version) in Play Store.
 
 ## Requirements and Instructions
 
