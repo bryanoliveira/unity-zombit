@@ -1,9 +1,5 @@
 # Die Zombit
 
-<div align="center">
-<img src="Images/3.png" width="260" height="190"> <img src="Images/2.png" width="260" height="190"> <img src="Images/1.png" width="260" height="190">
-</div><br/>
-
 In a world overrun by zombies, you must survive as long as possible and defeat different bosses while unlocking weapons, upgrades, equipment, characters, maps and much more. Reviving the classics of the '80s and '90s, Die Zombit is a retro wave top-down shooting game with an amazing soundtrack and addictive gameplay that guarantees many hours of fun. Check out its trailer:
 
 <div align="center">
@@ -15,6 +11,10 @@ In a world overrun by zombies, you must survive as long as possible and defeat d
 <br/>
 
 I made this game during my first year in the Computer Science course. I believe the project could be significantly improved using better design patterns, clearer abstractions and algorithmic complexity in mind. Yet, it is a fun game that you can [download](https://play.google.com/store/apps/details?id=com.elitgames.zombit) (an older version) in Play Store.
+
+<div align="center">
+<img src="Images/3.png" width="260" height="190"> <img src="Images/2.png" width="260" height="190"> <img src="Images/1.png" width="260" height="190">
+</div><br/>
 
 ## Requirements and Instructions
 
