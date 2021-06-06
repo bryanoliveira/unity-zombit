@@ -9,6 +9,10 @@ In a world overrun by zombies, you must survive as long as possible and defeat d
 
 I made this game during my first year in the Computer Science course. I've learned a lot from this project, from software engineering to game design and a little bit of pixel art. I believe the project could be significantly improved using better design patterns, clearer abstractions and algorithmic complexity in mind. Yet, it is a fun game that you can [download](https://play.google.com/store/apps/details?id=com.elitgames.zombit) (an older version) in Play Store.
 
+<div align="center">
+<img src="Images/3.png" width="260" height="190"> <img src="Images/2.png" width="260" height="190"> <img src="Images/1.png" width="260" height="190">
+</div>
+
 ## Usage
 
 ### Running a pre-built binary (Android and Windows only)
@@ -37,11 +41,7 @@ This version is an unfinished project that rethinks the UI, weapon management an
 
 <br/>
 
-## Screenshots & more GIFs
-
-<div align="center">
-<img src="Images/3.png" width="260" height="190"> <img src="Images/2.png" width="260" height="190"> <img src="Images/1.png" width="260" height="190">
-</div>
+## More GIFs
 
 <div align="center">
     <img src="Images/monster.gif" width="480"/><br/>
