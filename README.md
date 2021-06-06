@@ -39,8 +39,6 @@ This version is an unfinished project that rethinks the UI, weapon management an
 -   Fix end game UI
 -   Add multiplayer support
 
-<br/>
-
 ## More GIFs
 
 <div align="center">
