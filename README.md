@@ -5,6 +5,7 @@ In a world overrun by zombies, you must survive as long as possible and defeat d
 <div align="center">
     <img src="Images/game.gif" width="480"/>
 </div>
+<br/>
 
 I made this game during my first year in the Computer Science course. I've learned a lot from this project, from software engineering to game design and a little bit of pixel art. I believe the project could be significantly improved using better design patterns, clearer abstractions and algorithmic complexity in mind. Yet, it is a fun game that you can [download](https://play.google.com/store/apps/details?id=com.elitgames.zombit) (an older version) in Play Store.
 
